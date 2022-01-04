@@ -1,3 +1,9 @@
+ CalcLog10: div	bx
+	    inc cx
+	    cmp ax,1
+	    jne CalcLog10         
+	     ret              
+
 Log10:     mov ah,9 
             mov dx, offset msg7
             int 21h 
@@ -8,10 +14,8 @@ Log10:     mov ah,9
             mov bx,10
             mov cx,0 
             mov dx,0
-	        call CalcLog10
-	     
-	        mov dx, cx
-           
+	    call CalcLog10
+	    mov dx, cx
             push dx 
             mov ah,9
             mov dx, offset msg5
