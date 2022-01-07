@@ -8,10 +8,16 @@ Just choose the equation you need and press enter and than enter the first and t
 This code is built in assemply x86 Assembly , for 16 bit register.
 # Resources
 Assembly Language for x86 Processors, 6th Edition
+
 prentice the intel microprocessors, 8th edition
 # Team members
-Marina Beder 
+Marina Beder
+
 Yasmin Ahmed
-Mona Khalid 
+
+Mona Khalid
+
 Nihal Khalid
-Mariam Tarek 
+
+Mariam Tarek
+
