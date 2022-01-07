@@ -3,7 +3,7 @@
 org 100h
 
 jmp joinSignup       ; jump over data declaration
-msg:    db     "0-Addition",0dh,0ah,"1-Multiply",0dh,0ah,"2-Subtract",0dh,0ah,"3-Divide",0dh,0ah, "4-Power",0dh,0ah,"5-Factorial",0dh,0ah,"6-Square Root",0dh,0ah,"7-Log", 0Dh,0Ah,"8-Power Square",0dh,0ah,"9-Log10",0dh,0ah, "e-Exit",0dh,0ah,'$'
+msg:    db       0dh,0ah,"0-Addition",0dh,0ah,"1-Multiply",0dh,0ah,"2-Subtract",0dh,0ah,"3-Divide",0dh,0ah, "4-Power",0dh,0ah,"5-Factorial",0dh,0ah,"6-Square Root",0dh,0ah,"7-Log", 0Dh,0Ah,"8-Power Square",0dh,0ah,"9-Log10",0dh,0ah, "e-Exit",0dh,0ah,'$'
 msg2:    db      0dh,0ah,"Enter First No : $"
 msg3:    db      0dh,0ah,"Enter Second No : $"
 msg4:    db      0dh,0ah,"Choice Error $" 
