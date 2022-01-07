@@ -565,16 +565,7 @@ error: mov ah,09h  ;then let us handle the case of addition operation
  
  
         
-;when user press any key exept (1) to make login
-;exit2:  mov dx,offset msg6
- ;       mov ah, 09h
-  ;      int 21h  
-   ;     mov ah, 0
-    ;    int 16h
-     ;   jmp joinLogin
-      ;  ret  
-        
-        
+
 
 
 
