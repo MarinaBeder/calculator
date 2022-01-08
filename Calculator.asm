@@ -498,6 +498,7 @@ signup:
      
 ; when user exit from the program and want to enter again
 signupAgain:
+    lea di,array
     mov di,number
     mov ah,9
     mov dx, offset msg10
